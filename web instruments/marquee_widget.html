@@ -14,7 +14,7 @@
     <script>
         var todayString = ""
         function pullData() {
-            var apiUrl = 'https://sheets.googleapis.com/v4/spreadsheets/1bgg-43DyUbP1PZITnxZbz89C14pC3RIrgGrF_lJkicc/values/Sheet1?alt=json&key=AIzaSyDr58mLD6Gyn_l3P4wYl6bW-EbwRfXyZ9I'
+            var apiUrl = 'https://sheets.googleapis.com/v4/spreadsheets/1bgg-43DyUbP1PZITnxZbz89C14pC3RIrgGrF_lJkicc/values/Sheet1?alt=json&key='
             fetch(apiUrl).then(response => {
                 return response.json()
             }).then(data => {
