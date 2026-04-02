@@ -200,7 +200,7 @@
 
         function pullData(force = false) {
             if (sheetdata == null || force == true) {
-                var apiUrl = 'https://sheets.googleapis.com/v4/spreadsheets/1JqnSyJgPqsftN0q8TWcIehFiZd_-eUVxE2Cwu5LMg_M/values/Sheet1?alt=json&key=AIzaSyDr58mLD6Gyn_l3P4wYl6bW-EbwRfXyZ9I'
+                var apiUrl = 'https://sheets.googleapis.com/v4/spreadsheets/1JqnSyJgPqsftN0q8TWcIehFiZd_-eUVxE2Cwu5LMg_M/values/Sheet1?alt=json&key='
                 fetch(apiUrl).then(response => {
                     return response.json();
                 }).then(data => {
